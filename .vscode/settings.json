@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "webpack.main.config.js": true,
+        "webpack.rules.js": true,
+        "webpack.renderer.config.js": true,
+        "yarn.lock": true,
+        "package-lock.json": true,
+        "forge.config.js": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".webpack": true,
+        "node_modules": true
+    }
+}
