@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-
 /**
  * Returns the full path from the template file to where a function was called;
  * @param {'import.meta'} importMeta - the import.meta of a function. Simply pass `import.meta`

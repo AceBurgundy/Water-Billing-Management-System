@@ -1,11 +1,20 @@
 {
   "extends": "airbnb",
   "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
- },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
-      "arrow-parens": ["error", "as-needed"],
-      "comma-dangle": ["error", "never"]
- }
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": ["error", "never"],
+    "react/prefer-stateless-function": "off"
+  },
+  "overrides": [
+    {
+      "files": ["src/lib/common/**/*.js", "src/lib/renderer/**/*.js"],
+      "rules": {
+        "import/extensions": ["off"]
+      }
+    }
+  ]
 }
